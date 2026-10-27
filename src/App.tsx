@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { StudyGoal, GoalFormData, GoalStatus } from './types/goal';
 import {
   getStoredGoals,
